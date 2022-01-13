@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿    <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" 
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
@@ -9,54 +9,56 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 <h1 style="text-align:center">Railway Management system</h1>
                 
                 <table border="2" align="center">
-                    <tr>
-                        <th>Train Name</th>
-                        <th>From</th>
-                        <th>To</th>
-                        <th>SA Availabile</th>
-                        <th>SA Price</th>
+                    <tr >
+                        
+                        <th>Emp-name</th>
+                        <th>Emp-age</th>
+                        <th>employee Name</th>
+                        <th>Emp-emailid Availabile</th>
+                        <th>Emp-emailid Price</th>
                         <th>SL Availabile</th>
                         <th>SL Price</th>
-                        
 
                     </tr>
-                    <xsl:for-each select="Railway/menu/train">
-                        <xsl:sort select = "tname"/>
-                        <xsl:if test="SAA &gt; 100">
+                    <xsl:for-each selSLt="Company/menu/employee">
+                        <xsl:sort selSLt = "tname"/>
+                        <xsl:if test="Emp-salary &gt; 300">
                             <tr >
 
                                 <xsl:choose>
-                                    <xsl:when test="SLA &gt; 300">
+                                    <xsl:when test="Emp-Phonenum &gt; 300">
                                         <td bgcolor="#ff00ff">
-                                            <xsl:value-of select="tname"/>
+                                            <xsl:value-of selSLt="tname"/>
                                         </td>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         <td>
-                                            <xsl:value-of select="tname"/>
+                                            <xsl:value-of selSLt="tname"/>
                                         </td>
                                     </xsl:otherwise>
                                 </xsl:choose>
                                 
                                 <td>
-                                    <xsl:value-of select="from"></xsl:value-of>
+                                    <xsl:value-of selSLt="Emp-name"></xsl:value-of>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="to"></xsl:value-of>
+                                    <xsl:value-of selSLt="Emp-age"></xsl:value-of>
                                 </td>
 
-                                
                                 <td>
-                                    <xsl:value-of select="SAA"></xsl:value-of>
+                                    <xsl:value-of selSLt="tname"></xsl:value-of>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="SA"></xsl:value-of>
+                                    <xsl:value-of selSLt="Emp-salary"></xsl:value-of>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="SLA"></xsl:value-of>
+                                    <xsl:value-of selSLt="Emp-emailid"></xsl:value-of>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="SL"></xsl:value-of>
+                                    <xsl:value-of selSLt="Emp-Phonenum"></xsl:value-of>
+                                </td>
+                                <td>
+                                    <xsl:value-of selSLt="SL"></xsl:value-of>
                                 </td>
 
                             </tr>
@@ -67,7 +69,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <br>
                     </br>
                 </br>
-                <h1 style="text-align:center">Complete Train Details</h1>
+                <h1 style="text-align:center">Complete employee Details</h1>
                 <xsl:apply-templates/>
             </body>
         </html>
@@ -76,59 +78,59 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="cd">
         <p>
-            <xsl:apply-templates select="from"/>
-            <xsl:apply-templates select="to"/>
-            <xsl:apply-templates select="tname"/>
-            <xsl:apply-templates select="SAA"/>
-            <xsl:apply-templates select="SA"/>
-            <xsl:apply-templates select="SLA"/>
-            <xsl:apply-templates select="SL"/>
+            <xsl:apply-templates selSLt="Emp-name"/>
+            <xsl:apply-templates selSLt="Emp-age"/>
+            <xsl:apply-templates selSLt="tname"/>
+            <xsl:apply-templates selSLt="Emp-salary"/>
+            <xsl:apply-templates selSLt="SA"/>
+            <xsl:apply-templates selSLt="Emp-Phonenum"/>
+            <xsl:apply-templates selSLt="SL"/>
         </p>
     </xsl:template>
 
-    <xsl:template match="from">
-        From: <span style="color:#ff0000">
-            <xsl:value-of select="."/>
+    <xsl:template match="Emp-name">
+        Emp-name: <span style="color:#ff0000">
+            <xsl:value-of selSLt="."/>
         </span>
         <br />
     </xsl:template>
     
 
-    <xsl:template match="to">
-        To: <span style="color:#00ff00">
-            <xsl:value-of select="."/>
+    <xsl:template match="Emp-age">
+        Emp-age: <span style="color:#00ff00">
+            <xsl:value-of selSLt="."/>
         </span>
         <br />
     </xsl:template>
     <xsl:template match="tname">
-        Train Name: <span style="color:#ff0000">
-            <xsl:value-of select="."/>
+        employee Name: <span style="color:#ff0000">
+            <xsl:value-of selSLt="."/>
         </span>
         <br />
     </xsl:template>
 
-    <xsl:template match="SAL">
-        SA Availability: <span style="color:#00ff00">
-            <xsl:value-of select="."/>
+    <xsl:template match="Emp-emailidL">
+        Emp-emailid Availability: <span style="color:#00ff00">
+            <xsl:value-of selSLt="."/>
         </span>
         <br />
     </xsl:template>
-    <xsl:template match="SA">
-        SA price: <span style="color:#ff0000">
-            <xsl:value-of select="."/>
+    <xsl:template match="Emp-emailid">
+        Emp-emailid price: <span style="color:#ff0000">
+            <xsl:value-of selSLt="."/>
         </span>
         <br />
     </xsl:template>
 
-    <xsl:template match="SLA">
+    <xsl:template match="Emp-Phonenum">
         SL Availability: <span style="color:#00ff00">
-            <xsl:value-of select="."/>
+            <xsl:value-of selSLt="."/>
         </span>
         <br />
     </xsl:template>
     <xsl:template match="SL">
         SL Price: <span style="color:#00ff00">
-            <xsl:value-of select="."/>
+            <xsl:value-of selSLt="."/>
         </span>
         <br />
     </xsl:template>
