@@ -4,77 +4,77 @@
 xsi:noNamespaceSchemaLocation="CHC.xsd">
     <menu>
         <employee id="t100">
-            <Emp-name>New delhi</Emp-name>
-            <Emp-age>kannur</Emp-age>
-            <tname>  IRCTC TEJAS EXP </tname>
-            <Emp-salary>400</Emp-salary>
-            <Emp-emailid>1250</Emp-emailid>
-            <Emp-Phonenum> 250</Emp-Phonenum>
-            <Emp-designation>1783</Emp-designation>
+            <Emp-name>Don Thomas</Emp-name>
+            <Emp-age>35</Emp-age>
+            <tname>  1841001 </tname>
+            <Emp-salary>400000</Emp-salary>
+            <Emp-emailid>donthomas@gmail.com</Emp-emailid>
+            <Emp-Phonenum> 9432875673</Emp-Phonenum>
+            <Emp-designation>Manager</Emp-designation>
         </employee>
 
          <employee id="t101">
-            <Emp-name>Agomoni</Emp-name>
-            <Emp-age>Ajanti</Emp-age>
-            <tname>  SHRAM SHKTI EXP </tname>
-            <Emp-salary> 300</Emp-salary>
-            <Emp-emailid>1250</Emp-emailid>
-            <Emp-Phonenum> 250</Emp-Phonenum>
-            <Emp-designation>1783</Emp-designation>
+            <Emp-name>Rahul Lal</Emp-name>
+            <Emp-age>25</Emp-age>
+            <tname>  1841002 </tname>
+            <Emp-salary> 75000</Emp-salary>
+            <Emp-emailid>rahul.k</Emp-emailid>
+            <Emp-Phonenum>9213453728</Emp-Phonenum>
+            <Emp-designation>Developer</Emp-designation>
         </employee>
          <employee id="t102">
-            <Emp-name>North Bengal</Emp-name>
-            <Emp-age>Goa</Emp-age>
-            <tname>  ANVT REWA EXP </tname>
-            <Emp-salary> 400</Emp-salary>
-            <Emp-emailid>1250</Emp-emailid>
-            <Emp-Phonenum> 250</Emp-Phonenum>
-            <Emp-designation>1783</Emp-designation>
+            <Emp-name>Sahara Banumathi</Emp-name>
+            <Emp-age>26</Emp-age>
+            <tname>  1841003 </tname>
+            <Emp-salary> 82000</Emp-salary>
+            <Emp-emailid>saha.banu@gmail.com</Emp-emailid>
+            <Emp-Phonenum> 8933422567</Emp-Phonenum>
+            <Emp-designation>Senior Developer</Emp-designation>
         </employee>
          <employee id="t103">
-            <Emp-name>Lucknow</Emp-name>
-            <Emp-age>West Bengal</Emp-age>
-            <tname>  VIKRAMSHILA EXP </tname>
-            <Emp-salary> 400</Emp-salary>
-            <Emp-emailid>1250</Emp-emailid>
-            <Emp-Phonenum> 250</Emp-Phonenum>
-            <Emp-designation>1783</Emp-designation>
+            <Emp-name>Badhir Sha</Emp-name>
+            <Emp-age>45</Emp-age>
+            <tname>  1841004</tname>
+            <Emp-salary> 300000</Emp-salary>
+            <Emp-emailid>sha999bad@gmail.com</Emp-emailid>
+            <Emp-Phonenum> 9234678234</Emp-Phonenum>
+            <Emp-designation>Senior Head</Emp-designation>
         </employee>
          <employee id="t104">
-            <Emp-name>New delhi</Emp-name>
-            <Emp-age>Odisha</Emp-age>
-            <tname>  NANDANKANAN EXP </tname>
-            <Emp-salary> 400</Emp-salary>
-            <Emp-emailid>1250</Emp-emailid>
-            <Emp-Phonenum> 250</Emp-Phonenum>
-            <Emp-designation>1783</Emp-designation>
+            <Emp-name>Thunumaki Kumari</Emp-name>
+            <Emp-age>35</Emp-age>
+            <tname>  1841005</tname>
+            <Emp-salary> 85000</Emp-salary>
+            <Emp-emailid>thunumaki@gmail.com</Emp-emailid>
+            <Emp-Phonenum> 9234675783</Emp-Phonenum>
+            <Emp-designation> HR</Emp-designation>
         </employee>
          <employee id="t105">
-            <Emp-name>Andhra Pradesh</Emp-name>
-            <Emp-age>Kerala</Emp-age>
-            <tname>  JHARKHAND EXP </tname>
-            <Emp-salary> 400</Emp-salary>
-            <Emp-emailid>1250</Emp-emailid>
-            <Emp-Phonenum> 250</Emp-Phonenum>
-            <Emp-designation>1783</Emp-designation>
+            <Emp-name>Cristofer Nola</Emp-name>
+            <Emp-age>45</Emp-age>
+            <tname>  1841006</tname>
+            <Emp-salary> 450000</Emp-salary>
+            <Emp-emailid>nolanchri@gmail.com</Emp-emailid>
+            <Emp-Phonenum> 9374829108</Emp-Phonenum>
+            <Emp-designation>project Head</Emp-designation>
         </employee>
          <employee id="t106">
-            <Emp-name>Gujarat</Emp-name>
-            <Emp-age>Chennai</Emp-age>
-            <tname>  BIHAR S KRANTI </tname>
-            <Emp-salary> 400</Emp-salary>
-            <Emp-emailid>1250</Emp-emailid>
-            <Emp-Phonenum> 250</Emp-Phonenum>
-            <Emp-designation>1783</Emp-designation>
+            <Emp-name>Laila Mathew</Emp-name>
+            <Emp-age>36</Emp-age>
+            <tname>  1841007</tname>
+            <Emp-salary> 150000</Emp-salary>
+            <Emp-emailid>lailamathe@gmail.com</Emp-emailid>
+            <Emp-Phonenum> 9289293234</Emp-Phonenum>
+            <Emp-designation>Head of Affairs</Emp-designation>
         </employee>
          <employee id="t107">
-            <Emp-name>Jaipur</Emp-name>
-            <Emp-age>Kannur</Emp-age>
-            <tname>  PURUSHOTTAM EXP </tname>
-            <Emp-salary> 400</Emp-salary>
-            <Emp-emailid>1250</Emp-emailid>
-            <Emp-Phonenum> 250</Emp-Phonenum>
-            <Emp-designation>1783</Emp-designation>
+            <Emp-name>John Mathew</Emp-name>
+            <Emp-age>22</Emp-age>
+            <tname>  1841008</tname>
+            <Emp-salary> 75000</Emp-salary>
+            <Emp-emailid>johnmathew2000@gmail.com</Emp-emailid>
+            <Emp-Phonenum> 7432901888</Emp-Phonenum>
+            <Emp-designation>Intern</Emp-designation>
         </employee>
     </menu>
 
