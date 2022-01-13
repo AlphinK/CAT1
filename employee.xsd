@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="company">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Faculty" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="id" type="xs:integer"></xs:element>
+<xs:element name="name" type="xs:string"></xs:element>
+<xs:element name="age" type="xs:intger"></xs:element>
+<xs:element name="salary" type="MySal"></xs:element>
+<xs:element name="email" type="xs:string"></xs:element>
+<xs:element name="mobile" type="xs:integer"></xs:element>
+<xs:element name="designation" type="xs:string"></xs:element>
+<xs:element name="promotion" type="xs:string"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:simpleType name="salary">
+<xs:restriction base="xs:integer">
+<xs:minInclusive value="50000"></xs:minInclusive>
+<xs:maxInclusive value="200000"></xs:maxInclusive>
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>
