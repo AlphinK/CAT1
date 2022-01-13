@@ -10,7 +10,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <body>
     <h1 style="text-align:center">Employee Managment System</h1>
     <table border = "1" align="center">
-        <tr bgcolor = "orange">
+        <tr bgcolor = "#ff00ff">
             <th>id</th>
             <th>name</th>
             <th>age</th>
